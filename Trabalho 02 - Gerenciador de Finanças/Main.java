@@ -42,7 +42,7 @@ public class Main {
                     System.out.println("Selecione a forma de pagamento(1-Crédito, 2-Débito, 3-Pix, 4-Boleto, 5-N. Especificado):");
                     formaPag = input.nextInt()-1;
                     Gastos.add(new Gasto(tipo, data, valor, formaPag));
-                    System.out.println("Aperte qualquer tecla para continuar:");
+                    System.out.println("Aperte ENTER para continuar:");
                 input.nextLine();
                     break;
                 }
@@ -64,7 +64,7 @@ public class Main {
                     System.out.println("Informe o valor ganho(Use '.' para ','):");
                     valor = input.nextDouble();
                     Ganhos.add(new Ganho(tipo, data, valor));
-                    System.out.println("Aperte qualquer tecla para continuar:");
+                    System.out.println("Aperte ENTER para continuar:");
                 input.nextLine();
                 }
             break;
@@ -72,21 +72,21 @@ public class Main {
                 System.out.println("Digite a data no formado MM/YYYY:");
                 data = input.nextLine();
                 System.out.println(relatorio.geraRelatorioTipoGasto(Gastos, data));
-                System.out.println("Aperte qualquer tecla para continuar:");
+                System.out.println("Aperte ENTER para continuar:");
                 input.nextLine();
             break;
             case 4:
                 System.out.println("Digite a data no formado MM/YYYY:");
                 data = input.nextLine();
                 System.out.println(relatorio.geraRelatorioTipoGanho(Ganhos, data));
-                System.out.println("Aperte qualquer tecla para continuar:");
+                System.out.println("Aperte ENTER para continuar:");
                 input.nextLine();
             break;
             case 5:
                 System.out.println("Digite a data no formado MM/YYYY:");
                 data = input.nextLine();
                 System.out.println(relatorio.geraRelatorioMensal(Ganhos,Gastos,data));
-                System.out.println("Aperte qualquer tecla para continuar:");
+                System.out.println("Aperte ENTER para continuar:");
                 input.nextLine();
             break;
             case 6:
