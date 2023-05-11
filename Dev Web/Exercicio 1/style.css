@@ -1,0 +1,30 @@
+#aside1 {
+    padding: 2px;
+    border-radius: 10px;
+    background-color: #333;
+    color:#fff;
+    text-align: center;
+    width: 200px;
+    float:right;
+}
+
+#article1 {
+    float: left;
+}
+
+#nav1 {
+    background-color: gainsboro;
+    border-radius: 10px;
+    padding: 10px;
+    }
+
+ #ul1 {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    }
+    
+#ul1 li {
+    display: inline;
+    padding: 10px;
+    }

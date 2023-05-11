@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Página com Tabela</title>
+</head>
+<body>
+    <!--Tabela-->
+    <table border="1">
+        <caption>Lista de Alunos</caption>
+        <!--Header da Tabela-->
+        <thead>
+        <tr>
+            <th>seq</th>
+            <th>aluno</th>
+            <th>status</th>
+        </tr>
+        </thead>
+        <!--Body da Tabela-->
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>João Fulano</td>
+            <!--Rowspan: Muda qtd. Linhas Ocupadas-->
+            <td rowspan="2" align="center">OK</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>José Ciclano</td>
+        </tr>
+        </tbody>
+        <!--Footer da Tabela-->
+        <tfoot>
+        <tr>
+            <!--Colspan: Muda qtd. Colunas Ocupadas-->
+            <td colspan="2" align="center">Total</td>
+            <td>2</td>
+        </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
