@@ -1,0 +1,17 @@
+{
+  "frontendFolder": "C:/GitHub/quiz-storytelling/./frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "C:/GitHub/quiz-storytelling/./frontend/generated/jar-resources",
+  "staticOutput": "C:/GitHub/quiz-storytelling/target/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "statsOutput": "C:\\GitHub\\quiz-storytelling\\target\\classes\\META-INF\\VAADIN\\config",
+  "frontendBundleOutput": "C:\\GitHub\\quiz-storytelling\\target\\classes\\META-INF\\VAADIN\\webapp",
+  "devBundleOutput": "C:/GitHub/quiz-storytelling/src/main/dev-bundle/webapp",
+  "devBundleStatsOutput": "C:/GitHub/quiz-storytelling/src/main/dev-bundle/config",
+  "jarResourcesFolder": "C:/GitHub/quiz-storytelling/./frontend/generated/jar-resources",
+  "themeName": "quiz-storytelling-main",
+  "clientServiceWorkerSource": "C:\\GitHub\\quiz-storytelling\\target\\sw.ts",
+  "pwaEnabled": false,
+  "offlineEnabled": false,
+  "offlinePath": "'offline.html'"
+}
