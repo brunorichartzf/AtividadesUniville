@@ -1,0 +1,17 @@
+{
+  "frontendFolder": "Z:/GitHub/administrador-de-turma/./frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "Z:/GitHub/administrador-de-turma/./frontend/generated/jar-resources",
+  "staticOutput": "Z:/GitHub/administrador-de-turma/target/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "statsOutput": "Z:\\GitHub\\administrador-de-turma\\target\\classes\\META-INF\\VAADIN\\config",
+  "frontendBundleOutput": "Z:\\GitHub\\administrador-de-turma\\target\\classes\\META-INF\\VAADIN\\webapp",
+  "devBundleOutput": "Z:/GitHub/administrador-de-turma/src/main/dev-bundle/webapp",
+  "devBundleStatsOutput": "Z:/GitHub/administrador-de-turma/src/main/dev-bundle/config",
+  "jarResourcesFolder": "Z:/GitHub/administrador-de-turma/./frontend/generated/jar-resources",
+  "themeName": "myapp",
+  "clientServiceWorkerSource": "Z:\\GitHub\\administrador-de-turma\\target\\sw.ts",
+  "pwaEnabled": false,
+  "offlineEnabled": false,
+  "offlinePath": "'offline.html'"
+}
